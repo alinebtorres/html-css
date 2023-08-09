@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+   
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    font-family:'Lobster', cursive; ;
+    flex: 20%;
+    /* border: 1px solid rgb(207, 19, 19); */
+    text-align: center;
+    color: #068ea8;
+    margin-left: 10%;
+    
+    
+}
+
+.menu{
+ flex: 30%;
+ /* border: 1px solid; */
+text-align: right;
+padding: 20px;
+}
+.menu a{
+color: #068ea8;
+text-decoration: none;
+font-size: 20px;
+padding: 20px 16px;
+}
+.menu a:hover{
+color:#7ec1b8 ;
+border-top:#7ec1b8 solid ;
+}
+#botao{
+background-color:#068ea8 ;
+padding: 10px 25px;
+color: white;
+border-radius: 7%;
+margin-right: 10%;
+margin-left: 5%;
+}
+
+#botao:hover{
+background-color: #7ec1b8;
+border: none;
+}
+
+#fig{
+margin-left: 0%;
+vertical-align: middle;
+width: 50px;
+margin-right: 1%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #7ec1b8; */
+}
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    /* border: 1px solid; */
+
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    
+    text-align: center;
+}
+.headline h2{
+
+    font-weight: 900;
+    font-size: 20px;
+    color: #068ea8;
+
+    padding: 0;
+    margin: 0;
+}
